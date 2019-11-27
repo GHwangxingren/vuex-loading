@@ -1,0 +1,34 @@
+.container {
+    height: auto;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .banner {
+    width: 100%;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .btnValue {
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    // line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .icon-list {
+    margin: 15px;
+    font-size: 24px;
+    position: relative;
+    z-index: 1111;
+  
+    .icon {
+      margin: 0 10px;
+      font-size: 30px;
+    }
+  }
